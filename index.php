@@ -12,9 +12,9 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
   include('content.php'); // CHANGE
 } else {
   // User is not logged in, show login form
-  include('https://staticcdn.jggunter.com/assets/php/deliver/passwd-hd.php');
-  include('https://staticcdn.jggunter.com/assets/php/deliver/passwd-ln.php');
-  include('https://staticcdn.jggunter.com/assets/php/deliver/passwd-ft.php');
+  include('passwd-hd.php');
+  include('passwd-ln.php');
+  include('passwd-ft.php');
 }
 
 // Check if form was submitted
