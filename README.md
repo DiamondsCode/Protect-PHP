@@ -2,7 +2,7 @@
 An easy password protection tool with PHP
 
 # About
-Protect-PHP is a simple, password protection tool with one static password and username to protect a page.
+Protect-PHP is a simple, password protection tool with one static password and username to protect a page. This uses bootstrap CSS, and is very simple, hence only one file needed (other files are on a CDN)
 
 # Install
 Protect-PHP is very easy to install, here's how ya do it.
